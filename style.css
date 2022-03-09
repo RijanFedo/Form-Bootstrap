@@ -1,0 +1,182 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 3%;
+  /* padding: 2.5rem; */
+  margin: 4%;
+}
+/* .first-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  text-align: end;
+} */
+.last-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+  text-align: end;
+  text-align: center;
+}
+.full-name {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0.5rem;
+  padding: 0.3rem;
+  text-align: end;
+  align-items: center;
+}
+.first-name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(247, 234, 234);
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+h6 {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+p {
+  font-size: 0.7rem;
+}
+.btn {
+  font-size: 0.8rem;
+}
+.form-control {
+  font-size: 0.8rem;
+}
+.form-select {
+  font-size: 0.8rem;
+}
+.next-button {
+  width: 500px;
+}
+
+@media only screen and (max-width: 620px) {
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 0.6rem;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+  .btn {
+    font-size: 0.6rem;
+  }
+  .form-control {
+    font-size: 0.6rem;
+  }
+  .form-select {
+    font-size: 0.6rem;
+  }
+  .small {
+    font-size: 0.4rem;
+  }
+  .next-button {
+    width: 300px;
+  }
+}
+
+/* @media only screen and (max-width: 480px) {
+  h3 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 0.5rem;
+  }
+  p {
+    font-size: 0.4rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+  .form-control {
+    font-size: 0.5rem;
+  }
+  .form-select {
+    font-size: 0.5rem;
+  }
+  .small {
+    font-size: 0.3rem;
+  }
+  .next-button {
+    width: 200px;
+  }
+} */
+@media only screen and (max-width: 480px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .form-control {
+    font-size: 0.8rem;
+  }
+  .form-select {
+    font-size: 0.8rem;
+  }
+  .small {
+    font-size: 0.5rem;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(247, 234, 234);
+  }
+  .next-button {
+    width: 150px;
+  }
+  /* section {
+    display: flex;
+  } */
+}
